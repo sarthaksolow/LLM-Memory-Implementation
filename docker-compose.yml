@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   postgres:
-    image: postgres:15-alpine
+    image: ankane/pgvector:latest
     container_name: llm_memory_postgres
     environment:
       POSTGRES_DB: llm_memory_db
