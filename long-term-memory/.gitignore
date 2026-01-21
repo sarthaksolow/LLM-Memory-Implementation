@@ -1,0 +1,8 @@
+# Add your OpenRouter API key to .env file
+# Don't commit this file to git
+*.env
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+*.log
